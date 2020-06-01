@@ -86,7 +86,7 @@ var ruta6 = require("./routes/typography");
 app.use("/typography", ruta6);
 
 var detalle = require("./routes/detalle");
-app.use("/detalle", detalle);
+app.use("/preparacion-equipos", detalle);
 
 var detalle2 = require("./routes/detalle2");
 app.use("/fallas-mecanicas", detalle2);
