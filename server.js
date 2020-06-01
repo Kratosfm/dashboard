@@ -60,11 +60,11 @@ app.set("views", path.join(__dirname + "/views"));
 app.use(express.static(path.join(__dirname, "/assets")));
 
 app.get("/", function (req, res, next) {
-  res.sendFile("index.html", { root: "views" });
+  res.sendFile("dashboard.html", { root: "views" });
 });
 
 var index = require("./routes/dashboard");
-app.use("/index", index);
+app.use("/dashboard", index);
 
 var ruta1 = require("./routes/fallas");
 app.use("/fallas", ruta1);
