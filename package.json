@@ -2,7 +2,7 @@
   "name": "paper-dashboard-2",
   "description": "Bootstrap 4 Paper Design",
   "scripts": {
-    "start": "node ./server.js",
+    "start": "node server.js",
     "build": "node build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
