@@ -31,7 +31,7 @@
     "xls-to-json-lc": "^0.3.4",
     "xlsx-to-json-lc": "^0.5.0"
   },
-  "main": "db.js",
+  "main": "server.js",
   "directories": {
     "doc": "docs"
   },

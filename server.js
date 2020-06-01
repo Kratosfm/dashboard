@@ -51,7 +51,7 @@ app.get('/readDataFromDB', function (reqUp,resUp){
       arrayfal.push({year:resUp.json[i]._id.year,name:resUp.json[i]._id.month,data:resUp.json[i].count})
     }
     resUp = arrayfal
-    console.log(resUp)
+    //console.log(resUp)
     //console.log(resUp.json[0]._id.month)
     //console.log(resUp.json[0]._id,resUp.json[0].count)
 })});
