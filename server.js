@@ -56,7 +56,6 @@ app.get('/readDataFromDB', function (reqUp,resUp){
     //console.log(resUp.json[0]._id,resUp.json[0].count)
 })});
 
-
 app.set("views", path.join(__dirname + "/views"));
 app.use(express.static(path.join(__dirname, "/assets")));
 
@@ -91,10 +90,6 @@ app.use("/detalle", detalle);
 var graficas = require("./routes/graficaFiltrosJSON");
 app.use("/graficas",graficas)
 
-
-app.listen(3000, function () {
-  console.log("Server starting");
-});
 
 /*
 //Watch File running
