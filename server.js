@@ -92,7 +92,7 @@ app.use("/graficas",graficas)
 
 
 /*
-//Watch File running
+//Watch File runnings
 
 const { exec } = require("child_process");
 
